@@ -3,7 +3,7 @@
 ##Date: 
 
 #don't forget to import regex
-import re
+
 
 ##(/5) Task 1: MODIFY the code below.
 #A# Change the regex from .* to what is required to capture an email address
