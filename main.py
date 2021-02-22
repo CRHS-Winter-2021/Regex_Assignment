@@ -5,7 +5,7 @@
 #don't forget to import regex
 import re
 
-##Task 1: MODIFY the code below.
+##(/5) Task 1: MODIFY the code below.
 #A# Change the regex from .* to what is required to capture an email address
 #B# Add a condition so that no blanks are printed.
 #C# Count the number of email addresses found and print a final output line.
@@ -30,7 +30,7 @@ def reEmail(fname):
 There were 89 email addresses in rural-staff.txt 
 ### '''
 
-##Task 2: MODIFY code that will open the athletics file and extract all award winners
+##(/5) Task 2: MODIFY code that will open the athletics file and extract all award winners
 #notice that in the rural-athletics.txt file, the pattern is "... - AWARD WINNER(S)"
 #You should use a ( and ) regex like " (extract this) " to extract a portion of the match
 
@@ -48,7 +48,7 @@ def reAward(fname):
 ['Jose Crisostomo, Kalon MacDonald-Wood'] 
 ###'''
 
-##Task 3: CREATE code that will open a file and extract all the phone numbers 
+##(/5) Task 3: CREATE code that will open a file and extract all the phone numbers 
 
 def rePhone(fname):
   #open file
